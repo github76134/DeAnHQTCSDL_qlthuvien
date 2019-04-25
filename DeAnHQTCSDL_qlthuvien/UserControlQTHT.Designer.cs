@@ -109,6 +109,7 @@
             this.metroTileItemQLNV.TitleText = "Quản Lý Nhân Viên";
             this.metroTileItemQLNV.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemQLNV.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemQLNV.Click += new System.EventHandler(this.MetroTileItemQLNV_Click);
             // 
             // metroTileItemQLS
             // 
@@ -127,6 +128,7 @@
             this.metroTileItemQLS.TitleText = "Quản Lý Sách";
             this.metroTileItemQLS.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemQLS.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemQLS.Click += new System.EventHandler(this.MetroTileItemQLS_Click);
             // 
             // metroTileItemTLS
             // 
@@ -145,6 +147,7 @@
             this.metroTileItemTLS.TitleText = "Thể Loại Sách";
             this.metroTileItemTLS.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemTLS.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemTLS.Click += new System.EventHandler(this.MetroTileItemTLS_Click);
             // 
             // metroTileItemTG
             // 
@@ -163,6 +166,7 @@
             this.metroTileItemTG.TitleText = "Tác Giã ";
             this.metroTileItemTG.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemTG.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemTG.Click += new System.EventHandler(this.MetroTileItemTG_Click);
             // 
             // metroTileItemNXB
             // 
@@ -181,6 +185,7 @@
             this.metroTileItemNXB.TitleText = "Nhà Xuất Bản";
             this.metroTileItemNXB.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemNXB.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemNXB.Click += new System.EventHandler(this.MetroTileItemNXB_Click);
             // 
             // metroTileItemKH
             // 
@@ -199,6 +204,7 @@
             this.metroTileItemKH.TitleText = "Khách Hàng";
             this.metroTileItemKH.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemKH.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemKH.Click += new System.EventHandler(this.MetroTileItemKH_Click);
             // 
             // metroTileItemTK
             // 
@@ -217,6 +223,7 @@
             this.metroTileItemTK.TitleText = "Tài Khoản";
             this.metroTileItemTK.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemTK.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemTK.Click += new System.EventHandler(this.MetroTileItemTK_Click);
             // 
             // metroTileItemKho
             // 
@@ -235,6 +242,7 @@
             this.metroTileItemKho.TitleText = "Kho Hàng";
             this.metroTileItemKho.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemKho.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemKho.Click += new System.EventHandler(this.MetroTileItemKho_Click);
             // 
             // metroTileItemBC
             // 
@@ -253,6 +261,7 @@
             this.metroTileItemBC.TitleText = "Báo Cáo";
             this.metroTileItemBC.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemBC.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemBC.Click += new System.EventHandler(this.MetroTileItemBC_Click);
             // 
             // UserControlQTHT
             // 

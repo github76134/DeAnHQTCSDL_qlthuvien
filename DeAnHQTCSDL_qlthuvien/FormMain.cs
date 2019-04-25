@@ -12,10 +12,12 @@ namespace DeAnHQTCSDL_qlthuvien
 {
     public partial class FormMain : Form
     {
+        public static int ghichu = 0;
         public FormMain()
         {
             InitializeComponent();
         }
+        UserControlQLNhanVien userCtlQLNhanVien = new UserControlQLNhanVien();
         private void MouseDetect_Tick(object sender, EventArgs e)
         {
             if (panelMainMenu.ClientRectangle.Contains(PointToClient(Control.MousePosition)))
@@ -31,6 +33,12 @@ namespace DeAnHQTCSDL_qlthuvien
                 pictureBox1.Width = 40;
                 pictureBox1.Height = 50;
                 pictureBox1.Location = new Point(1,32);
+            }
+            if (ghichu == 11)
+            {
+                panelExMid.Controls.Clear();
+                panelExMid.Controls.Add(userCtlQLNhanVien);
+                ghichu = 0;
             }
         }
 
@@ -64,5 +72,7 @@ namespace DeAnHQTCSDL_qlthuvien
             this.panelExMain.Controls.Clear();
             this.panelExMain.Controls.Add(userCtlTroGiup);
         }
+
+        
     }
 }

@@ -19,3 +19,4 @@ C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQ
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlQLNV.resources
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlDangXuat.resources
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTroGiup.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlQLNhanVien.resources

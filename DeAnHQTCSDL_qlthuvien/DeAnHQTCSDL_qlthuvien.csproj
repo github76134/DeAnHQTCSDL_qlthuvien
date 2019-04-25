@@ -63,6 +63,12 @@
     <Compile Include="UserControlDangXuat.Designer.cs">
       <DependentUpon>UserControlDangXuat.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlQLNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlQLNhanVien.Designer.cs">
+      <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlQLNV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="UserControlDangXuat.resx">
       <DependentUpon>UserControlDangXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlQLNhanVien.resx">
+      <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlQLNV.resx">
       <DependentUpon>UserControlQLNV.cs</DependentUpon>

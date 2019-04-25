@@ -42,12 +42,11 @@
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.MouseDetect = new System.Windows.Forms.Timer(this.components);
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.panelExMid = new DevComponents.DotNetBar.PanelEx();
             this.panelExMain = new DevComponents.DotNetBar.PanelEx();
-            this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.panelMainMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelbottom.SuspendLayout();
-            this.panelExMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMainMenu
@@ -62,7 +61,7 @@
             this.panelMainMenu.Controls.Add(this.btnQuanTriHeThong);
             this.panelMainMenu.Location = new System.Drawing.Point(1, 1);
             this.panelMainMenu.Name = "panelMainMenu";
-            this.panelMainMenu.Size = new System.Drawing.Size(43, 514);
+            this.panelMainMenu.Size = new System.Drawing.Size(41, 459);
             this.panelMainMenu.TabIndex = 0;
             // 
             // btnTroGiup
@@ -118,7 +117,7 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 32);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 45);
             this.pictureBox1.TabIndex = 1;
@@ -148,9 +147,9 @@
             this.panelbottom.Controls.Add(this.labelX3);
             this.panelbottom.Controls.Add(this.labelX2);
             this.panelbottom.Controls.Add(this.labelX1);
-            this.panelbottom.Location = new System.Drawing.Point(1, 478);
+            this.panelbottom.Location = new System.Drawing.Point(1, 423);
             this.panelbottom.Name = "panelbottom";
-            this.panelbottom.Size = new System.Drawing.Size(1049, 37);
+            this.panelbottom.Size = new System.Drawing.Size(1284, 37);
             this.panelbottom.TabIndex = 6;
             // 
             // labelX3
@@ -203,18 +202,37 @@
             this.MouseDetect.Enabled = true;
             this.MouseDetect.Tick += new System.EventHandler(this.MouseDetect_Tick);
             // 
+            // panelExMid
+            // 
+            this.panelExMid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelExMid.AutoSize = true;
+            this.panelExMid.CanvasColor = System.Drawing.SystemColors.Control;
+            this.panelExMid.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.panelExMid.DisabledBackColor = System.Drawing.Color.Empty;
+            this.panelExMid.Location = new System.Drawing.Point(48, 178);
+            this.panelExMid.Name = "panelExMid";
+            this.panelExMid.Size = new System.Drawing.Size(1237, 241);
+            this.panelExMid.Style.Alignment = System.Drawing.StringAlignment.Center;
+            this.panelExMid.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.panelExMid.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.panelExMid.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.panelExMid.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.panelExMid.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.panelExMid.Style.GradientAngle = 90;
+            this.panelExMid.TabIndex = 15;
+            // 
             // panelExMain
             // 
-            this.panelExMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.panelExMain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelExMain.AutoSize = true;
             this.panelExMain.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.panelExMain.Controls.Add(this.panelEx1);
             this.panelExMain.DisabledBackColor = System.Drawing.Color.Empty;
             this.panelExMain.Location = new System.Drawing.Point(48, 1);
             this.panelExMain.Name = "panelExMain";
-            this.panelExMain.Size = new System.Drawing.Size(1002, 473);
+            this.panelExMain.Size = new System.Drawing.Size(1237, 171);
             this.panelExMain.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.panelExMain.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
             this.panelExMain.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
@@ -224,35 +242,16 @@
             this.panelExMain.Style.GradientAngle = 90;
             this.panelExMain.TabIndex = 5;
             // 
-            // panelEx1
-            // 
-            this.panelEx1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelEx1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.panelEx1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.panelEx1.DisabledBackColor = System.Drawing.Color.Empty;
-            this.panelEx1.Location = new System.Drawing.Point(0, 163);
-            this.panelEx1.Name = "panelEx1";
-            this.panelEx1.Size = new System.Drawing.Size(999, 310);
-            this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.panelEx1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.panelEx1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.panelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.panelEx1.Style.GradientAngle = 90;
-            this.panelEx1.TabIndex = 15;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1051, 515);
+            this.ClientSize = new System.Drawing.Size(1286, 460);
             this.Controls.Add(this.panelMainMenu);
-            this.Controls.Add(this.panelbottom);
             this.Controls.Add(this.panelExMain);
+            this.Controls.Add(this.panelbottom);
+            this.Controls.Add(this.panelExMid);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.Text = "Phần Mền Quản Lý Nhà Sách";
@@ -261,7 +260,6 @@
             this.panelMainMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelbottom.ResumeLayout(false);
-            this.panelExMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,12 +275,12 @@
         private System.Windows.Forms.Button btnDangXuat;
         private System.Windows.Forms.Button btnQuanLyNghiepVu;
         private System.Drawing.Printing.PrintDocument printDocument1;
-        private DevComponents.DotNetBar.PanelEx panelExMain;
         private System.Windows.Forms.Panel panelbottom;
         private DevComponents.DotNetBar.LabelX labelX3;
         private DevComponents.DotNetBar.LabelX labelX2;
         private DevComponents.DotNetBar.LabelX labelX1;
-        private DevComponents.DotNetBar.PanelEx panelEx1;
+        private DevComponents.DotNetBar.PanelEx panelExMid;
+        private DevComponents.DotNetBar.PanelEx panelExMain;
     }
 }
 

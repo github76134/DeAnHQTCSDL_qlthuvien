@@ -16,5 +16,50 @@ namespace DeAnHQTCSDL_qlthuvien
         {
             InitializeComponent();
         }
+        private void MetroTileItemQLNV_Click(object sender, EventArgs e)
+        {
+            //là nút hiện thị bản qlnv khi bấm
+            FormMain.ghichu = 11;
+        }
+
+        private void MetroTileItemQLS_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemTLS_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemTG_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemNXB_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemKH_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemTK_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemKho_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MetroTileItemBC_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

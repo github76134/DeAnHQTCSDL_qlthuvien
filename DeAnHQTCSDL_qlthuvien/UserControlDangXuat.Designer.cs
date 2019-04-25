@@ -45,7 +45,7 @@
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.PreventEnterBeep = true;
             this.textBoxX1.ReadOnly = true;
-            this.textBoxX1.Size = new System.Drawing.Size(1696, 147);
+            this.textBoxX1.Size = new System.Drawing.Size(1696, 161);
             this.textBoxX1.TabIndex = 0;
             this.textBoxX1.Text = "Không Có Làm Đăng Nhập Thì Mong Chờ Chi Đăng Xuất , hihi............";
             this.textBoxX1.WatermarkColor = System.Drawing.Color.White;
@@ -57,7 +57,7 @@
             this.BackColor = System.Drawing.Color.Aqua;
             this.Controls.Add(this.textBoxX1);
             this.Name = "UserControlDangXuat";
-            this.Size = new System.Drawing.Size(1315, 150);
+            this.Size = new System.Drawing.Size(1315, 167);
             this.ResumeLayout(false);
 
         }

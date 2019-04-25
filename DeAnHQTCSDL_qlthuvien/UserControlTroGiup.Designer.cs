@@ -45,7 +45,7 @@
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.PreventEnterBeep = true;
             this.textBoxX1.ReadOnly = true;
-            this.textBoxX1.Size = new System.Drawing.Size(1696, 147);
+            this.textBoxX1.Size = new System.Drawing.Size(1696, 162);
             this.textBoxX1.TabIndex = 1;
             this.textBoxX1.Text = "Công ty cổ phần TNHH 1 số thành viên chưa biết xin kính chào các bạn.\r\nLiên hệ 03" +
     "98704477 để bik thêm thông tin chi tiết.(chỉ làm h hành chánh)";
@@ -58,7 +58,7 @@
             this.BackColor = System.Drawing.Color.Crimson;
             this.Controls.Add(this.textBoxX1);
             this.Name = "UserControlTroGiup";
-            this.Size = new System.Drawing.Size(1315, 150);
+            this.Size = new System.Drawing.Size(1315, 168);
             this.ResumeLayout(false);
 
         }
