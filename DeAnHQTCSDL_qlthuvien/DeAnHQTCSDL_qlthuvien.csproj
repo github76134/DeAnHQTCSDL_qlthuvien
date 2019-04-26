@@ -57,11 +57,41 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlBC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBC.Designer.cs">
+      <DependentUpon>UserControlBC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlDangXuat.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlDangXuat.Designer.cs">
       <DependentUpon>UserControlDangXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlKH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlKH.Designer.cs">
+      <DependentUpon>UserControlKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlKho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlKho.Designer.cs">
+      <DependentUpon>UserControlKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlLHD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlLHD.Designer.cs">
+      <DependentUpon>UserControlLHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlNXB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlNXB.Designer.cs">
+      <DependentUpon>UserControlNXB.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControlQLNhanVien.cs">
       <SubType>UserControl</SubType>
@@ -75,17 +105,47 @@
     <Compile Include="UserControlQLNV.Designer.cs">
       <DependentUpon>UserControlQLNV.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlQLS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlQLS.Designer.cs">
+      <DependentUpon>UserControlQLS.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlQTHT.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlQTHT.Designer.cs">
       <DependentUpon>UserControlQTHT.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlTG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTG.Designer.cs">
+      <DependentUpon>UserControlTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTK.Designer.cs">
+      <DependentUpon>UserControlTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTLS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTLS.Designer.cs">
+      <DependentUpon>UserControlTLS.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlTroGiup.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlTroGiup.Designer.cs">
       <DependentUpon>UserControlTroGiup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlTruyXuatKH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlTruyXuatKH.Designer.cs">
+      <DependentUpon>UserControlTruyXuatKH.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
@@ -99,8 +159,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControlBC.resx">
+      <DependentUpon>UserControlBC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlDangXuat.resx">
       <DependentUpon>UserControlDangXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlKH.resx">
+      <DependentUpon>UserControlKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlKho.resx">
+      <DependentUpon>UserControlKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlLHD.resx">
+      <DependentUpon>UserControlLHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlNXB.resx">
+      <DependentUpon>UserControlNXB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlQLNhanVien.resx">
       <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
@@ -108,11 +183,26 @@
     <EmbeddedResource Include="UserControlQLNV.resx">
       <DependentUpon>UserControlQLNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlQLS.resx">
+      <DependentUpon>UserControlQLS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlQTHT.resx">
       <DependentUpon>UserControlQTHT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTG.resx">
+      <DependentUpon>UserControlTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTK.resx">
+      <DependentUpon>UserControlTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTLS.resx">
+      <DependentUpon>UserControlTLS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlTroGiup.resx">
       <DependentUpon>UserControlTroGiup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlTruyXuatKH.resx">
+      <DependentUpon>UserControlTruyXuatKH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -16,5 +16,15 @@ namespace DeAnHQTCSDL_qlthuvien
         {
             InitializeComponent();
         }
+
+        private void MetroTileItemLHD_Click(object sender, EventArgs e)
+        {
+            FormMain.ghichu = 21;
+        }
+
+        private void MetroTileItemKhachHang_Click(object sender, EventArgs e)
+        {
+            FormMain.ghichu = 22;
+        }
     }
 }

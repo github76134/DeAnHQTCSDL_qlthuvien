@@ -24,42 +24,42 @@ namespace DeAnHQTCSDL_qlthuvien
 
         private void MetroTileItemQLS_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 12;
         }
 
         private void MetroTileItemTLS_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 13;
         }
 
         private void MetroTileItemTG_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 14;
         }
 
         private void MetroTileItemNXB_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 15;
         }
 
         private void MetroTileItemKH_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 16;
         }
 
         private void MetroTileItemTK_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 17;
         }
 
         private void MetroTileItemKho_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 18;
         }
 
         private void MetroTileItemBC_Click(object sender, EventArgs e)
         {
-
+            FormMain.ghichu = 19;
         }
     }
 }

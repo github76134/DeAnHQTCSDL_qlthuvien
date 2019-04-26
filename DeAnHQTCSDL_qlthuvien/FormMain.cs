@@ -18,6 +18,18 @@ namespace DeAnHQTCSDL_qlthuvien
             InitializeComponent();
         }
         UserControlQLNhanVien userCtlQLNhanVien = new UserControlQLNhanVien();
+        UserControlQLS userCtlQLS = new UserControlQLS();
+        UserControlTLS userCtlTLS = new UserControlTLS();
+        UserControlTG userCtlTG = new UserControlTG();
+        UserControlNXB userCtlNXB = new UserControlNXB();
+        UserControlKH userCtlKH = new UserControlKH();
+        UserControlTK userCtlTK = new UserControlTK();
+        UserControlKho userCtlKho = new UserControlKho();
+        UserControlBC userCtlBC = new UserControlBC();
+
+        UserControlLHD userCtlLHD = new UserControlLHD();
+        UserControlTruyXuatKH userCtlTruyXuatKH = new UserControlTruyXuatKH();
+
         private void MouseDetect_Tick(object sender, EventArgs e)
         {
             if (panelMainMenu.ClientRectangle.Contains(PointToClient(Control.MousePosition)))
@@ -40,6 +52,75 @@ namespace DeAnHQTCSDL_qlthuvien
                 panelExMid.Controls.Add(userCtlQLNhanVien);
                 ghichu = 0;
             }
+            else
+                if (ghichu == 12)
+                {
+                panelExMid.Controls.Clear();
+                panelExMid.Controls.Add(userCtlQLS);
+                ghichu = 0;
+                }
+                else
+                    if (ghichu == 13)
+                    {
+                    panelExMid.Controls.Clear();
+                    panelExMid.Controls.Add(userCtlTLS);
+                    ghichu = 0;
+                    }
+                    else
+                        if (ghichu == 14)
+                        {
+                        panelExMid.Controls.Clear();
+                        panelExMid.Controls.Add(userCtlTG);
+                        ghichu = 0;
+                        }
+                        else
+                            if (ghichu == 15)
+                            {
+                            panelExMid.Controls.Clear();
+                            panelExMid.Controls.Add(userCtlNXB);
+                            ghichu = 0;
+                            }
+                            else
+                                if (ghichu == 16)
+                                {
+                                panelExMid.Controls.Clear();
+                                panelExMid.Controls.Add(userCtlKH);
+                                ghichu = 0;
+                                }
+                                else
+                                    if (ghichu == 17)
+                                    {
+                                    panelExMid.Controls.Clear();
+                                    panelExMid.Controls.Add(userCtlTK);
+                                    ghichu = 0;
+                                    }
+                                    else
+                                        if (ghichu == 18)
+                                        {
+                                            panelExMid.Controls.Clear();
+                                            panelExMid.Controls.Add(userCtlKho);
+                                            ghichu = 0;
+                                        }
+                                        else
+                                            if (ghichu == 19)
+                                            {
+                                                panelExMid.Controls.Clear();
+                                                panelExMid.Controls.Add(userCtlBC);
+                                                ghichu = 0;
+                                            }
+            if (ghichu == 21)
+            {
+                panelExMid.Controls.Clear();
+                panelExMid.Controls.Add(userCtlLHD);
+                ghichu = 0;
+            }
+            else
+                if (ghichu == 22)
+                {
+                    panelExMid.Controls.Clear();
+                    panelExMid.Controls.Add(userCtlTruyXuatKH);
+                    ghichu = 0;
+                }
         }
 
         private void FormMain_Load(object sender, EventArgs e)

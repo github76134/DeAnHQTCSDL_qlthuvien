@@ -20,3 +20,13 @@ C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQ
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlDangXuat.resources
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTroGiup.resources
 C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlQLNhanVien.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlBC.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlKH.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlKho.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlLHD.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlNXB.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlQLS.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTG.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTK.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTLS.resources
+C:\Users\PC\Desktop\DeAnHQTCSDL_qlthuvien\DeAnHQTCSDL_qlthuvien\obj\Debug\DeAnHQTCSDL_qlthuvien.UserControlTruyXuatKH.resources

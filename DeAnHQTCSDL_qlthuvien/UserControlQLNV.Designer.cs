@@ -95,6 +95,7 @@
             this.metroTileItemLHD.TitleText = "Lập Hóa Đơn";
             this.metroTileItemLHD.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemLHD.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemLHD.Click += new System.EventHandler(this.MetroTileItemLHD_Click);
             // 
             // metroTileItemKhachHang
             // 
@@ -113,6 +114,7 @@
             this.metroTileItemKhachHang.TitleText = "Khách Hàng";
             this.metroTileItemKhachHang.TitleTextColor = System.Drawing.Color.Black;
             this.metroTileItemKhachHang.TitleTextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroTileItemKhachHang.Click += new System.EventHandler(this.MetroTileItemKhachHang_Click);
             // 
             // UserControlQLNV
             // 

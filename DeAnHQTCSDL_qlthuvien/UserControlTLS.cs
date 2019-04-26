@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace DeAnHQTCSDL_qlthuvien
 {
-    public partial class UserControlQLNhanVien : UserControl
+    public partial class UserControlTLS : UserControl
     {
-        public UserControlQLNhanVien()
+        public UserControlTLS()
         {
             InitializeComponent();
         }
-
-        
     }
 }
