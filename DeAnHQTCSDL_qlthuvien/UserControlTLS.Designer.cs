@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlTLS));
             this.grb_tk = new System.Windows.Forms.GroupBox();
-            this.cmb_tk_tl = new System.Windows.Forms.ComboBox();
-            this.cmb_tk_ml = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btn_tk = new System.Windows.Forms.Button();
@@ -50,6 +48,8 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.textBoxTimMaSach = new System.Windows.Forms.TextBox();
+            this.textBoxTimTheLoai = new System.Windows.Forms.TextBox();
             this.grb_tk.SuspendLayout();
             this.grb_ls.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_loaisach)).BeginInit();
@@ -60,12 +60,12 @@
             // 
             this.grb_tk.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.grb_tk.BackColor = System.Drawing.Color.Transparent;
-            this.grb_tk.Controls.Add(this.cmb_tk_tl);
-            this.grb_tk.Controls.Add(this.cmb_tk_ml);
+            this.grb_tk.Controls.Add(this.textBoxTimTheLoai);
+            this.grb_tk.Controls.Add(this.textBoxTimMaSach);
             this.grb_tk.Controls.Add(this.label2);
             this.grb_tk.Controls.Add(this.label4);
-            this.grb_tk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grb_tk.Location = new System.Drawing.Point(54, 154);
+            this.grb_tk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grb_tk.Location = new System.Drawing.Point(110, 154);
             this.grb_tk.Name = "grb_tk";
             this.grb_tk.Size = new System.Drawing.Size(913, 55);
             this.grb_tk.TabIndex = 43;
@@ -73,39 +73,23 @@
             this.grb_tk.Text = "Tìm kiếm thông tin";
             this.grb_tk.Visible = false;
             // 
-            // cmb_tk_tl
-            // 
-            this.cmb_tk_tl.FormattingEnabled = true;
-            this.cmb_tk_tl.Location = new System.Drawing.Point(566, 20);
-            this.cmb_tk_tl.Name = "cmb_tk_tl";
-            this.cmb_tk_tl.Size = new System.Drawing.Size(299, 24);
-            this.cmb_tk_tl.TabIndex = 3;
-            // 
-            // cmb_tk_ml
-            // 
-            this.cmb_tk_ml.FormattingEnabled = true;
-            this.cmb_tk_ml.Location = new System.Drawing.Point(186, 20);
-            this.cmb_tk_ml.Name = "cmb_tk_ml";
-            this.cmb_tk_ml.Size = new System.Drawing.Size(182, 24);
-            this.cmb_tk_ml.TabIndex = 2;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(443, 21);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(488, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 18);
+            this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tìm theo thể loại";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(22, 21);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(154, 18);
+            this.label4.Size = new System.Drawing.Size(162, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "Tìm theo mã loại sách";
             // 
@@ -116,7 +100,7 @@
             this.btn_tk.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_tk.BackgroundImage")));
             this.btn_tk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_tk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_tk.Location = new System.Drawing.Point(698, 90);
+            this.btn_tk.Location = new System.Drawing.Point(710, 91);
             this.btn_tk.Name = "btn_tk";
             this.btn_tk.Size = new System.Drawing.Size(106, 47);
             this.btn_tk.TabIndex = 49;
@@ -131,7 +115,7 @@
             this.btnHuy.Enabled = false;
             this.btnHuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuy.Location = new System.Drawing.Point(804, 90);
+            this.btnHuy.Location = new System.Drawing.Point(843, 91);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(106, 47);
             this.btnHuy.TabIndex = 44;
@@ -145,9 +129,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grb_ls.Controls.Add(this.dtgv_loaisach);
             this.grb_ls.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grb_ls.Location = new System.Drawing.Point(3, 225);
+            this.grb_ls.Location = new System.Drawing.Point(79, 215);
             this.grb_ls.Name = "grb_ls";
-            this.grb_ls.Size = new System.Drawing.Size(993, 227);
+            this.grb_ls.Size = new System.Drawing.Size(1097, 271);
             this.grb_ls.TabIndex = 41;
             this.grb_ls.TabStop = false;
             this.grb_ls.Text = "Chi tiết loại sách";
@@ -163,9 +147,9 @@
             this.stt1,
             this.MALOAISH,
             this.TENLOAISH});
-            this.dtgv_loaisach.Location = new System.Drawing.Point(6, 13);
+            this.dtgv_loaisach.Location = new System.Drawing.Point(6, 21);
             this.dtgv_loaisach.Name = "dtgv_loaisach";
-            this.dtgv_loaisach.Size = new System.Drawing.Size(984, 208);
+            this.dtgv_loaisach.Size = new System.Drawing.Size(1085, 244);
             this.dtgv_loaisach.TabIndex = 0;
             // 
             // stt1
@@ -196,7 +180,7 @@
             this.btnLuu.Enabled = false;
             this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuu.Location = new System.Drawing.Point(582, 90);
+            this.btnLuu.Location = new System.Drawing.Point(578, 91);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(106, 47);
             this.btnLuu.TabIndex = 45;
@@ -213,9 +197,9 @@
             this.grb_loaisach.Controls.Add(this.txt_maloaish);
             this.grb_loaisach.Enabled = false;
             this.grb_loaisach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grb_loaisach.Location = new System.Drawing.Point(50, 13);
+            this.grb_loaisach.Location = new System.Drawing.Point(156, 14);
             this.grb_loaisach.Name = "grb_loaisach";
-            this.grb_loaisach.Size = new System.Drawing.Size(913, 71);
+            this.grb_loaisach.Size = new System.Drawing.Size(791, 71);
             this.grb_loaisach.TabIndex = 42;
             this.grb_loaisach.TabStop = false;
             this.grb_loaisach.Text = "Thông tin nhà xuất bản";
@@ -263,7 +247,7 @@
             this.btnSua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua.BackgroundImage")));
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(464, 90);
+            this.btnSua.Location = new System.Drawing.Point(444, 91);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(106, 47);
             this.btnSua.TabIndex = 46;
@@ -277,7 +261,7 @@
             this.btnThem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThem.BackgroundImage")));
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(183, 90);
+            this.btnThem.Location = new System.Drawing.Point(180, 91);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(106, 47);
             this.btnThem.TabIndex = 48;
@@ -291,12 +275,28 @@
             this.btnXoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoa.BackgroundImage")));
             this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.Location = new System.Drawing.Point(352, 90);
+            this.btnXoa.Location = new System.Drawing.Point(313, 91);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(106, 47);
             this.btnXoa.TabIndex = 47;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            // 
+            // textBoxTimMaSach
+            // 
+            this.textBoxTimMaSach.Location = new System.Drawing.Point(203, 18);
+            this.textBoxTimMaSach.MaxLength = 10;
+            this.textBoxTimMaSach.Name = "textBoxTimMaSach";
+            this.textBoxTimMaSach.Size = new System.Drawing.Size(237, 26);
+            this.textBoxTimMaSach.TabIndex = 2;
+            // 
+            // textBoxTimTheLoai
+            // 
+            this.textBoxTimTheLoai.Location = new System.Drawing.Point(619, 18);
+            this.textBoxTimTheLoai.MaxLength = 10;
+            this.textBoxTimTheLoai.Name = "textBoxTimTheLoai";
+            this.textBoxTimTheLoai.Size = new System.Drawing.Size(274, 26);
+            this.textBoxTimTheLoai.TabIndex = 3;
             // 
             // UserControlTLS
             // 
@@ -327,8 +327,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grb_tk;
-        private System.Windows.Forms.ComboBox cmb_tk_tl;
-        private System.Windows.Forms.ComboBox cmb_tk_ml;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_tk;
@@ -347,5 +345,7 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.TextBox textBoxTimTheLoai;
+        private System.Windows.Forms.TextBox textBoxTimMaSach;
     }
 }
